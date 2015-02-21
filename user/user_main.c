@@ -99,7 +99,7 @@ user_init(void)
     {
         struct station_config *config = (struct station_config *)zalloc(sizeof(struct station_config));
         sprintf(config->ssid, "tve-home");
-        sprintf(config->password, "tve@home");
+        sprintf(config->password, "foobar");
         wifi_station_set_config(config);
         free(config);
     }
